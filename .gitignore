@@ -1,3 +1,5 @@
 /node_modules
 .env
 /middleware/service.json
+/config/config-example.txt
+/database/connection-example.txt

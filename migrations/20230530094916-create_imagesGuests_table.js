@@ -34,7 +34,27 @@ module.exports = {
         allowNull: false,
       },
       long_desc: {
-        type: Sequelize.STRING,
+        type: Sequelize.STRING(500),
+        allowNull: false,
+      },
+      kandungan: {
+        type: Sequelize.STRING(500),
+        allowNull: false,
+      },
+      persebaran: {
+        type: Sequelize.STRING(500),
+        allowNull: false,
+      },
+      ciri_fisik: {
+        type: Sequelize.STRING(500),
+        allowNull: false,
+      },
+      ciri_kimia: {
+        type: Sequelize.STRING(500),
+        allowNull: false,
+      },
+      ciri_morfologi: {
+        type: Sequelize.STRING(500),
         allowNull: false,
       },
       createdAt: {

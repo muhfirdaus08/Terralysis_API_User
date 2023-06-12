@@ -1,12 +1,10 @@
 require('dotenv').config({ path: '../.env' });
 const { Sequelize } = require('sequelize');
 
-const { DB_USERNAME, DB_PASSWORD, DB_DATABASE, DB_HOST, DB_DIALECT } = process.env;
-
 // Konfigurasi koneksi ke database
-const sequelize = new Sequelize(DB_DATABASE, DB_USERNAME, DB_PASSWORD, {
-  host: DB_HOST,
-  dialect: DB_DIALECT,
+const sequelize = new Sequelize(process.env.DB_DATABASE, process.env.DB_USERNAME, process.env.DB_PASSWORD, {
+  host: process.env.DB_HOST,
+  dialect: process.env.DB_DIALECT,
 });
 
 // cek koneksi
