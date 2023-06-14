@@ -175,3 +175,4 @@
       "message": "Logout success"
   }
   ```
+## API for Model [Terralysis_API_Model](https://github.com/muhfirdaus08/Terralysis_API_Model)
