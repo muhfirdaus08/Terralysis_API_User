@@ -1,4 +1,4 @@
-# API Documentation
+# API User Documentation
 
 ![banner.](/public/images/banner1.png)
 
