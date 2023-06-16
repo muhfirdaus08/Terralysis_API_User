@@ -175,4 +175,9 @@
       "message": "Logout success"
   }
   ```
-## API for Model [Terralysis_API_Model](https://github.com/muhfirdaus08/Terralysis_API_Model)
+### How to run
+- Clone the code or download it as a zip file
+- Connect to your database and run migration file
+- Run "npm install" to install dependencies
+- Run "npm run start" to run the app
+### API for Model [Terralysis_API_Model](https://github.com/muhfirdaus08/Terralysis_API_Model)
